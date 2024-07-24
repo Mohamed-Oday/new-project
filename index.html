@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leon | Template One</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/leon.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body class="flex flex-col items-center min-h-screen box-border m-0 md:min-h-screen">
+    <!-- Start Header -->
+    <header class="w-full max-h-[64px] p-[20px] relative">
+        <div class="flex flex-row w-full items-center justify-between px-[15px] md:justify-around">
+            <div class="md:pr-[300px]">
+                <img src="assets/images/logo.png" alt="#" class="w-[60px]">
+            </div>
+            <div class="link relative">
+                <div class="icon w-[30px] flex flex-wrap justify-end">
+                    <span class="bg-[#333333] h-[2px] mb-[5px] w-full"></span>
+                    <span class="bg-[#333333] h-[2px] mb-[5px] w-[60%]"></span>
+                    <span class="bg-[#333333] h-[2px] mb-[5px] w-full"></span>
+                </div>
+                <ul class="hidden list-none m-0 p-0 bg-[#f6f6f6] absolute right-0 min-w-[200px]">
+                    <li class="border-b-[#dddddd] border-[1px] border-x-0 border-t-0"><a href="#services" class="block p-[15px] text-[#333]">Services</a></li>
+                    <li class="border-b-[#dddddd] border-[1px] border-x-0 border-t-0"><a href="#portfolio" class="block p-[15px] text-[#333]">Portfolio</a></li>
+                    <li class="border-b-[#dddddd] border-[1px] border-x-0 border-t-0"><a href="#about" class="block p-[15px] text-[#333]">About</a></li>
+                    <li><a href="#contact" class="block p-[15px] text-[#333]">Contact</a></li>
+                </ul>
+            </div>  
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="Landing w-full">
+        <div class="Intro absolute left-[50%] top-[50%] text-center w-[320px] max-w-full">
+            <h1 class="text-[50px] font-bold text-[#10cab7]">Hello There</h1>
+            <p class="text-[19px] my-[19px]">
+                We are Leon - Super Creative & Minimal Agency Web Template
+            </p>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Features -->
+    <div class="Features py-[60px] bg-[#f6f6f6] w-full">
+        <div class="grid-container grid grid-cols-1 md:grid-cols-3 gap-[20px] w-full text-center px-[15px] mx-auto md:w-[1170px] ">
+            <div class="p-[20px]">
+                <i class="fa-solid fa-wand-magic-sparkles font-[900] text-[48px] text-[#10cab7]"></i>
+                <p class="text-[20px] font-[800] my-[30px]">Tell Us Your Idea</p>
+                <p class="desc text-[16px] text-[#777] my-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+            </div>
+            <div class="p-[20px]">
+                <i class="fa-regular fa-gem font-[900] text-[48px] text-[#10cab7]"></i>
+                <p class="text-[20px] font-[800] my-[30px]">We Will Do All The Work</p>
+                <p class="desc text-[16px] text-[#777] my-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+            </div>
+            <div class="p-[20px]">
+                <i class="fa-solid fa-earth-americas font-[900] text-[48px] text-[#10cab7]"></i>
+                <p class="text-[20px] font-[800] my-[30px]">Your Product is Worldwide</p>
+                <p class="desc text-[17 px] text-[#777] my-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Services -->
+    <div class="Services py-[60px]" id="services">
+        <div class="service-msg text-center">
+            <h1 class="text-[60px] md:text-[100px] font-[800] text-[#ebeced]">Services</h1>
+            <p class="text-[20px] text-[#797979] md:-mt-[50px] -mt-[35px]">Don't be busy, be productive</p>
+        </div>
+        <div class="grid-container grid md:grid-cols-3 gap-[30px] mt-[100px] px-[15px] md:px-0">
+            <div class="col md:h-[400px]">
+                <div class="svr flex flex-col md:flex-row items-center md:items-start justify-center mb-[40px] text-center md:text-left">
+                    <i class="fas fa-palette fa-2x md:w-[60px] w-full h-[60px] md:h-auto text-[#10cab7] font-[900] text-[32px]"></i>
+                    <div class="text md:w-[300px]">
+                        <h3 class="text-[20px] font-bold mb-[20px]">Graphic Design</h3>
+                        <p class="font-[300] text-[#444] leading-[1.6] my-[16px]">Graphic design is the process of visual communication and problem-solving using one or more of typography, photography and illustration. </p>
+                    </div>
+                </div>
+                <div class="svr flex flex-col md:flex-row items-center md:items-start justify-center mb-[40px] text-center md:text-left">
+                    <i class="fab fa-sketch fa-2x md:w-[60px] w-full h-[60px] md:h-auto text-[#10cab7] font-[900] text-[32px]"></i>
+                    <div class="text md:w-[300px]">
+                        <h3 class="text-[19px] font-bold mb-[20px]">
+                            UI & UX</h3>
+                        <p class="font-[300] text-[#444] leading-[1.6] my-[16px]">
+                            Process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="svr flex flex-col md:flex-row items-center md:items-start justify-center mb-[40px] text-center md:text-left">
+                    <i class="fas fa-vector-square fa-2x md:w-[60px] w-full h-[60px] md:h-auto text-[#10cab7] font-[900] text-[32px]"></i>
+                    <div class="text md:w-[300px]">
+                        <h3 class="text-[19px] font-bold mb-[20px]">Web Design</h3>
+                        <p class="font-[300] text-[#444] leading-[1.6] my-[16px]">Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                    </div>
+                </div>
+                <div class="svr flex flex-col md:flex-row items-center md:items-start justify-center mb-[40px] text-center md:text-left">
+                    <i class="fas fa-pencil-ruler fa-2x md:w-[60px] w-full h-[60px] md:h-auto text-[#10cab7] font-[900] text-[32px]"></i>
+                    <div class="text md:w-[300px]">
+                        <h3 class="text-[19px] font-bold mb-[20px]">
+                            Web Development</h3>
+                        <p class="font-[300] text-[#444] leading-[1.6] my-[16px]">
+                            Web development is a broad term for the work involved in developing a web site for the Internet or an intranet.                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-col hidden md:block">
+                <div class="flex justify-center">
+                  <div class="service-img-wrapper relative">
+                    <img src="assets/images/services.jpg" alt="services" class="md:w-[260px]">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div class="Portfolio bg-[#f6f6f6] w-full py-[60px]" id="portfolio">
+        <div class="portfolio-container flex flex-col justify-center items-center px-[15px]">
+            <div class="text-center">
+                <h1 class="text-[60px] md:text-[100px] font-[800] text-[#ebeced]">Portfolio</h1>
+                <p class="text-[20px] text-[#797979] md:-mt-[50px] -mt-[35px]">If you do it right, it will last forever.</p>
+            </div>
+            <div class="grid-container md:w-[1140px] grid md:grid-cols-3 mt-[80px] gap-[30px]">
+                <div class="col md:w[360px] bg-white">
+                    <div>
+                        <img src="assets/images/portfolio-1.jpg" alt="#">
+                    </div>
+                    <div class="p-[20px]">
+                        <h3 class="text-[19px] font-bold">Project Here</h3>
+                        <p class="font-[400] md:mt-[16px] text-[#777]">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                    </div>
+                </div>
+                <div class="col md:w[360px] bg-white">
+                    <div>
+                        <img src="assets/images/portfolio-2.jpg" alt="#">
+                    </div>
+                    <div class="p-[20px]">
+                        <h3 class="text-[19px] font-bold">Project Here</h3>
+                        <p class="font-[400] md:mt-[16px] text-[#777]">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                    </div>
+                </div>
+                <div class="col md:w[360px] bg-white">
+                    <div>
+                        <img src="assets/images/portfolio-3.jpg" alt="#">
+                    </div>
+                    <div class="p-[20px]">
+                        <h3 class="text-[19px] font-bold">Project Here</h3>
+                        <p class="font-[400] md:mt-[16px] text-[#777]">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <div class="About py-[60px] relative" id="about">
+        <div class="container w-full relative px-[15px] md:w-[1140px]">
+            <div class="text-center w-full">
+                <h1 class="text-[60px] md:text-[100px] font-[800] text-[#ebeced]">About</h1>
+                <p class="text-[20px] text-[#797979] md:-mt-[50px] -mt-[35px]">Less is more work</p>
+            </div>
+            <div class="about-content mt-[100px] flex md:flex-row flex-col items-center justify-between">
+                <div class="about-img relative md:before:block md:after:block before:hidden after:hidden mb-[60px] md:mb-0">
+                    <img src="assets/images/about.jpg" alt="#" class="w-[250px] h-[375px]">
+                </div>
+                <div class="text-center md:text-start md:w-[640px] flex flex-col items-start justify-between">
+                    <p class="font-bold mt-[16px] mb-[50px] leading-[2]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium! </p>
+                    <hr class="w-[50%] mx-auto md:mx-0 my-[8px] border-[#10cab7] border-[1.5px]">
+                    <p class="mb-[16px] mt-[32px] leading-[2] text-[#777]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore esse, alias, sed quo officia?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
+    <div class="Contact w-full bg-[#f6f6f6] py-[60px]" id="contact">
+        <div class="text-center">
+            <h1 class="text-[60px] md:text-[100px] font-[800] text-[#ebeced]">Contact</h1>
+            <p class="text-[20px] text-[#797979] md:-mt-[50px] -mt-[35px]">We are born to create</p>
+        </div>
+        <div class="info py-[60px] text-center">
+            <h1 class="text-[#2c4755] text-[25px] md:text-[35px] font-[800] mt-[35px] mb-[15px]">Feel free to drop us a line at:</h1>
+            <h1 class="text-[#10cab7] text-[25px] md:text-[35px] font-[800]">leonagency@mail.com</h1>
+            <p class="mt-[20px]">Find Us On Social Networks <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> </p>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer class="w-full bg-[#2c4755]">
+        <div class="w-full text-center h-[80px] flex flex-col justify-center items-center">
+            <p class="text-[18px] text-[#fff] py-[20px]">© 2021 <span class="text-[#10cab7] font-[800]">Leon</span> All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
